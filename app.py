@@ -1,6 +1,6 @@
-def say_hi(name):
-    print("Hello " + name + "!")
+print("Welcome to Calculator app")
+num_1 = int(input("Enter a first number: "))
+num_2 = int(input("Enter another number: "))
+result = num_1 + num_2
 
-
-user_name = input("What's Your name? ")
-say_hi(user_name)
+print(str(num_1) + " + " + str(num_2) + " = " + str(result))
